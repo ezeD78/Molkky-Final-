@@ -14,6 +14,9 @@
 		E3972A9D2BDA597E00A39C83 /* MolkkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972A9C2BDA597E00A39C83 /* MolkkyTests.swift */; };
 		E3972AA72BDA597E00A39C83 /* MolkkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AA62BDA597E00A39C83 /* MolkkyUITests.swift */; };
 		E3972AA92BDA597E00A39C83 /* MolkkyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AA82BDA597E00A39C83 /* MolkkyUITestsLaunchTests.swift */; };
+		E3972AB92BDA59CF00A39C83 /* GameBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AB52BDA59CF00A39C83 /* GameBrain.swift */; };
+		E3972ABA2BDA59CF00A39C83 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AB62BDA59CF00A39C83 /* Joueur.swift */; };
+		E3972ABB2BDA59CF00A39C83 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AB72BDA59CF00A39C83 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E3972ABC2BDA59E000A39C83 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E3972A872BDA597C00A39C83 /* Molkky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molkky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3972A8A2BDA597C00A39C83 /* MolkkyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkkyApp.swift; sourceTree = "<group>"; };
@@ -45,6 +60,9 @@
 		E3972AA22BDA597E00A39C83 /* MolkkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolkkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3972AA62BDA597E00A39C83 /* MolkkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkkyUITests.swift; sourceTree = "<group>"; };
 		E3972AA82BDA597E00A39C83 /* MolkkyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkkyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3972AB52BDA59CF00A39C83 /* GameBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBrain.swift; sourceTree = "<group>"; };
+		E3972AB62BDA59CF00A39C83 /* Joueur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
+		E3972AB72BDA59CF00A39C83 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +113,7 @@
 		E3972A892BDA597C00A39C83 /* Molkky */ = {
 			isa = PBXGroup;
 			children = (
+				E3972AB82BDA59CF00A39C83 /* Model */,
 				E3972A8A2BDA597C00A39C83 /* MolkkyApp.swift */,
 				E3972A8C2BDA597C00A39C83 /* ContentView.swift */,
 				E3972A8E2BDA597D00A39C83 /* Assets.xcassets */,
@@ -129,6 +148,16 @@
 			path = MolkkyUITests;
 			sourceTree = "<group>";
 		};
+		E3972AB82BDA59CF00A39C83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3972AB52BDA59CF00A39C83 /* GameBrain.swift */,
+				E3972AB62BDA59CF00A39C83 /* Joueur.swift */,
+				E3972AB72BDA59CF00A39C83 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +168,8 @@
 				E3972A832BDA597C00A39C83 /* Sources */,
 				E3972A842BDA597C00A39C83 /* Frameworks */,
 				E3972A852BDA597C00A39C83 /* Resources */,
+				E3972ABC2BDA59E000A39C83 /* CopyFiles */,
+				E3972ABD2BDA59E500A39C83 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,12 +285,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E3972ABD2BDA59E500A39C83 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint --fix && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3972A832BDA597C00A39C83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E3972A8D2BDA597C00A39C83 /* ContentView.swift in Sources */,
+				E3972ABA2BDA59CF00A39C83 /* Joueur.swift in Sources */,
+				E3972ABB2BDA59CF00A39C83 /* Message.swift in Sources */,
+				E3972AB92BDA59CF00A39C83 /* GameBrain.swift in Sources */,
 				E3972A8B2BDA597C00A39C83 /* MolkkyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +388,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -395,7 +449,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
