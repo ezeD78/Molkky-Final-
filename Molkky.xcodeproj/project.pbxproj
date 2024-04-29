@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E3972A8B2BDA597C00A39C83 /* MolkkyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972A8A2BDA597C00A39C83 /* MolkkyApp.swift */; };
-		E3972A8D2BDA597C00A39C83 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972A8C2BDA597C00A39C83 /* ContentView.swift */; };
 		E3972A8F2BDA597D00A39C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3972A8E2BDA597D00A39C83 /* Assets.xcassets */; };
 		E3972A932BDA597D00A39C83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3972A922BDA597D00A39C83 /* Preview Assets.xcassets */; };
 		E3972A9D2BDA597E00A39C83 /* MolkkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972A9C2BDA597E00A39C83 /* MolkkyTests.swift */; };
@@ -17,6 +16,13 @@
 		E3972AB92BDA59CF00A39C83 /* GameBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AB52BDA59CF00A39C83 /* GameBrain.swift */; };
 		E3972ABA2BDA59CF00A39C83 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AB62BDA59CF00A39C83 /* Joueur.swift */; };
 		E3972ABB2BDA59CF00A39C83 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AB72BDA59CF00A39C83 /* Message.swift */; };
+		E3972AC02BDABB2600A39C83 /* MolkyGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972ABE2BDABB2600A39C83 /* MolkyGridController.swift */; };
+		E3972AC72BDABB3F00A39C83 /* EcranClassementFin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AC12BDABB3F00A39C83 /* EcranClassementFin.swift */; };
+		E3972AC82BDABB3F00A39C83 /* EcranDejeux.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AC22BDABB3F00A39C83 /* EcranDejeux.swift */; };
+		E3972AC92BDABB3F00A39C83 /* InscriptionDesParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AC32BDABB3F00A39C83 /* InscriptionDesParticipant.swift */; };
+		E3972ACA2BDABB3F00A39C83 /* MolkyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AC42BDABB3F00A39C83 /* MolkyGrid.swift */; };
+		E3972ACB2BDABB3F00A39C83 /* PageDemarrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AC52BDABB3F00A39C83 /* PageDemarrage.swift */; };
+		E3972ACD2BDABB7700A39C83 /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972ACC2BDABB7700A39C83 /* WatchConnector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +57,6 @@
 /* Begin PBXFileReference section */
 		E3972A872BDA597C00A39C83 /* Molkky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molkky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3972A8A2BDA597C00A39C83 /* MolkkyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkkyApp.swift; sourceTree = "<group>"; };
-		E3972A8C2BDA597C00A39C83 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3972A8E2BDA597D00A39C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3972A902BDA597D00A39C83 /* Molkky.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Molkky.entitlements; sourceTree = "<group>"; };
 		E3972A922BDA597D00A39C83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -63,6 +68,13 @@
 		E3972AB52BDA59CF00A39C83 /* GameBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBrain.swift; sourceTree = "<group>"; };
 		E3972AB62BDA59CF00A39C83 /* Joueur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joueur.swift; sourceTree = "<group>"; };
 		E3972AB72BDA59CF00A39C83 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E3972ABE2BDABB2600A39C83 /* MolkyGridController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolkyGridController.swift; sourceTree = "<group>"; };
+		E3972AC12BDABB3F00A39C83 /* EcranClassementFin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcranClassementFin.swift; sourceTree = "<group>"; };
+		E3972AC22BDABB3F00A39C83 /* EcranDejeux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcranDejeux.swift; sourceTree = "<group>"; };
+		E3972AC32BDABB3F00A39C83 /* InscriptionDesParticipant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InscriptionDesParticipant.swift; sourceTree = "<group>"; };
+		E3972AC42BDABB3F00A39C83 /* MolkyGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolkyGrid.swift; sourceTree = "<group>"; };
+		E3972AC52BDABB3F00A39C83 /* PageDemarrage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageDemarrage.swift; sourceTree = "<group>"; };
+		E3972ACC2BDABB7700A39C83 /* WatchConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +125,11 @@
 		E3972A892BDA597C00A39C83 /* Molkky */ = {
 			isa = PBXGroup;
 			children = (
+				E3972ACC2BDABB7700A39C83 /* WatchConnector.swift */,
 				E3972AB82BDA59CF00A39C83 /* Model */,
+				E3972AC62BDABB3F00A39C83 /* View */,
+				E3972ABF2BDABB2600A39C83 /* Controler */,
 				E3972A8A2BDA597C00A39C83 /* MolkkyApp.swift */,
-				E3972A8C2BDA597C00A39C83 /* ContentView.swift */,
 				E3972A8E2BDA597D00A39C83 /* Assets.xcassets */,
 				E3972A902BDA597D00A39C83 /* Molkky.entitlements */,
 				E3972A912BDA597D00A39C83 /* Preview Content */,
@@ -156,6 +170,26 @@
 				E3972AB72BDA59CF00A39C83 /* Message.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E3972ABF2BDABB2600A39C83 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				E3972ABE2BDABB2600A39C83 /* MolkyGridController.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		E3972AC62BDABB3F00A39C83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3972AC12BDABB3F00A39C83 /* EcranClassementFin.swift */,
+				E3972AC22BDABB3F00A39C83 /* EcranDejeux.swift */,
+				E3972AC32BDABB3F00A39C83 /* InscriptionDesParticipant.swift */,
+				E3972AC42BDABB3F00A39C83 /* MolkyGrid.swift */,
+				E3972AC52BDABB3F00A39C83 /* PageDemarrage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,11 +344,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3972A8D2BDA597C00A39C83 /* ContentView.swift in Sources */,
+				E3972ACA2BDABB3F00A39C83 /* MolkyGrid.swift in Sources */,
+				E3972ACD2BDABB7700A39C83 /* WatchConnector.swift in Sources */,
+				E3972AC72BDABB3F00A39C83 /* EcranClassementFin.swift in Sources */,
 				E3972ABA2BDA59CF00A39C83 /* Joueur.swift in Sources */,
 				E3972ABB2BDA59CF00A39C83 /* Message.swift in Sources */,
 				E3972AB92BDA59CF00A39C83 /* GameBrain.swift in Sources */,
+				E3972ACB2BDABB3F00A39C83 /* PageDemarrage.swift in Sources */,
+				E3972AC82BDABB3F00A39C83 /* EcranDejeux.swift in Sources */,
+				E3972AC02BDABB2600A39C83 /* MolkyGridController.swift in Sources */,
 				E3972A8B2BDA597C00A39C83 /* MolkkyApp.swift in Sources */,
+				E3972AC92BDABB3F00A39C83 /* InscriptionDesParticipant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
