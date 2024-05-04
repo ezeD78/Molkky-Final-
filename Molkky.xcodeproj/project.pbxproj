@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30DA8822BE294B100A80AAB /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B808812BE288F300186D74 /* WatchConnectivity.framework */; platformFilter = ios; };
+		E30DA8832BE294B100A80AAB /* WatchConnectivity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E3B808812BE288F300186D74 /* WatchConnectivity.framework */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E3972A8B2BDA597C00A39C83 /* MolkkyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972A8A2BDA597C00A39C83 /* MolkkyApp.swift */; };
 		E3972A8F2BDA597D00A39C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3972A8E2BDA597D00A39C83 /* Assets.xcassets */; };
 		E3972A932BDA597D00A39C83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3972A922BDA597D00A39C83 /* Preview Assets.xcassets */; };
@@ -23,6 +25,21 @@
 		E3972ACA2BDABB3F00A39C83 /* MolkyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AC42BDABB3F00A39C83 /* MolkyGrid.swift */; };
 		E3972ACB2BDABB3F00A39C83 /* PageDemarrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AC52BDABB3F00A39C83 /* PageDemarrage.swift */; };
 		E3972ACD2BDABB7700A39C83 /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972ACC2BDABB7700A39C83 /* WatchConnector.swift */; };
+		E3B808472BE2871F00186D74 /* MolkkyWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B808462BE2871F00186D74 /* MolkkyWatchApp.swift */; };
+		E3B8084B2BE2872000186D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B8084A2BE2872000186D74 /* Assets.xcassets */; };
+		E3B8084E2BE2872000186D74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B8084D2BE2872000186D74 /* Preview Assets.xcassets */; };
+		E3B808582BE2872000186D74 /* MolkkyWatchWatchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B808572BE2872000186D74 /* MolkkyWatchWatchAppTests.swift */; };
+		E3B808622BE2872000186D74 /* MolkkyWatchWatchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B808612BE2872000186D74 /* MolkkyWatchWatchAppUITests.swift */; };
+		E3B808642BE2872000186D74 /* MolkkyWatchWatchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B808632BE2872000186D74 /* MolkkyWatchWatchAppUITestsLaunchTests.swift */; };
+		E3B808732BE287E200186D74 /* WatchToIos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B808722BE287E200186D74 /* WatchToIos.swift */; };
+		E3B808752BE287F700186D74 /* PageDemarrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B808742BE287F700186D74 /* PageDemarrage.swift */; };
+		E3B808772BE287FC00186D74 /* EcranJeuxWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B808762BE287FC00186D74 /* EcranJeuxWatch.swift */; };
+		E3B808792BE2880F00186D74 /* EcranClassementFinWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B808782BE2880F00186D74 /* EcranClassementFinWatch.swift */; };
+		E3B8087C2BE288C100186D74 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B8087B2BE288C000186D74 /* WatchConnectivity.framework */; };
+		E3B8087D2BE288E200186D74 /* MolkkyWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E3B808412BE2871F00186D74 /* MolkkyWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3B808832BE289EE00186D74 /* GameBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AB52BDA59CF00A39C83 /* GameBrain.swift */; };
+		E3B808842BE289EE00186D74 /* Joueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AB62BDA59CF00A39C83 /* Joueur.swift */; };
+		E3B808852BE289EE00186D74 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3972AB72BDA59CF00A39C83 /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +57,41 @@
 			remoteGlobalIDString = E3972A862BDA597C00A39C83;
 			remoteInfo = Molkky;
 		};
+		E3B808542BE2872000186D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3972A7F2BDA597C00A39C83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B808402BE2871F00186D74;
+			remoteInfo = "MolkkyWatch Watch App";
+		};
+		E3B8085E2BE2872000186D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3972A7F2BDA597C00A39C83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B808402BE2871F00186D74;
+			remoteInfo = "MolkkyWatch Watch App";
+		};
+		E3B8087E2BE288E200186D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3972A7F2BDA597C00A39C83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B808402BE2871F00186D74;
+			remoteInfo = "MolkkyWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		E30DA8842BE294B100A80AAB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E30DA8832BE294B100A80AAB /* WatchConnectivity.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3972ABC2BDA59E000A39C83 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,6 +99,17 @@
 			dstSubfolderSpec = 7;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B808802BE288E200186D74 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E3B8087D2BE288E200186D74 /* MolkkyWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -75,6 +135,21 @@
 		E3972AC42BDABB3F00A39C83 /* MolkyGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolkyGrid.swift; sourceTree = "<group>"; };
 		E3972AC52BDABB3F00A39C83 /* PageDemarrage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageDemarrage.swift; sourceTree = "<group>"; };
 		E3972ACC2BDABB7700A39C83 /* WatchConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+		E3B808412BE2871F00186D74 /* MolkkyWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MolkkyWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B808462BE2871F00186D74 /* MolkkyWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkkyWatchApp.swift; sourceTree = "<group>"; };
+		E3B8084A2BE2872000186D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3B8084D2BE2872000186D74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3B808532BE2872000186D74 /* MolkkyWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MolkkyWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B808572BE2872000186D74 /* MolkkyWatchWatchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkkyWatchWatchAppTests.swift; sourceTree = "<group>"; };
+		E3B8085D2BE2872000186D74 /* MolkkyWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MolkkyWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B808612BE2872000186D74 /* MolkkyWatchWatchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkkyWatchWatchAppUITests.swift; sourceTree = "<group>"; };
+		E3B808632BE2872000186D74 /* MolkkyWatchWatchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkkyWatchWatchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E3B808722BE287E200186D74 /* WatchToIos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchToIos.swift; sourceTree = "<group>"; };
+		E3B808742BE287F700186D74 /* PageDemarrage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageDemarrage.swift; sourceTree = "<group>"; };
+		E3B808762BE287FC00186D74 /* EcranJeuxWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcranJeuxWatch.swift; sourceTree = "<group>"; };
+		E3B808782BE2880F00186D74 /* EcranClassementFinWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcranClassementFinWatch.swift; sourceTree = "<group>"; };
+		E3B8087B2BE288C000186D74 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.4.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		E3B808812BE288F300186D74 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.4.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E30DA8822BE294B100A80AAB /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +175,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3B8083E2BE2871F00186D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B8087C2BE288C100186D74 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B808502BE2872000186D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B8085A2BE2872000186D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -108,7 +206,11 @@
 				E3972A892BDA597C00A39C83 /* Molkky */,
 				E3972A9B2BDA597E00A39C83 /* MolkkyTests */,
 				E3972AA52BDA597E00A39C83 /* MolkkyUITests */,
+				E3B808452BE2871F00186D74 /* MolkkyWatch Watch App */,
+				E3B808562BE2872000186D74 /* MolkkyWatch Watch AppTests */,
+				E3B808602BE2872000186D74 /* MolkkyWatch Watch AppUITests */,
 				E3972A882BDA597C00A39C83 /* Products */,
+				E3B8087A2BE288C000186D74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +220,9 @@
 				E3972A872BDA597C00A39C83 /* Molkky.app */,
 				E3972A982BDA597E00A39C83 /* MolkkyTests.xctest */,
 				E3972AA22BDA597E00A39C83 /* MolkkyUITests.xctest */,
+				E3B808412BE2871F00186D74 /* MolkkyWatch Watch App.app */,
+				E3B808532BE2872000186D74 /* MolkkyWatch Watch AppTests.xctest */,
+				E3B8085D2BE2872000186D74 /* MolkkyWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,6 +297,54 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E3B808452BE2871F00186D74 /* MolkkyWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E3B808462BE2871F00186D74 /* MolkkyWatchApp.swift */,
+				E3B808762BE287FC00186D74 /* EcranJeuxWatch.swift */,
+				E3B808742BE287F700186D74 /* PageDemarrage.swift */,
+				E3B808782BE2880F00186D74 /* EcranClassementFinWatch.swift */,
+				E3B808722BE287E200186D74 /* WatchToIos.swift */,
+				E3B8084A2BE2872000186D74 /* Assets.xcassets */,
+				E3B8084C2BE2872000186D74 /* Preview Content */,
+			);
+			path = "MolkkyWatch Watch App";
+			sourceTree = "<group>";
+		};
+		E3B8084C2BE2872000186D74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E3B8084D2BE2872000186D74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3B808562BE2872000186D74 /* MolkkyWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3B808572BE2872000186D74 /* MolkkyWatchWatchAppTests.swift */,
+			);
+			path = "MolkkyWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		E3B808602BE2872000186D74 /* MolkkyWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3B808612BE2872000186D74 /* MolkkyWatchWatchAppUITests.swift */,
+				E3B808632BE2872000186D74 /* MolkkyWatchWatchAppUITestsLaunchTests.swift */,
+			);
+			path = "MolkkyWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		E3B8087A2BE288C000186D74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3B808812BE288F300186D74 /* WatchConnectivity.framework */,
+				E3B8087B2BE288C000186D74 /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -204,10 +357,13 @@
 				E3972A852BDA597C00A39C83 /* Resources */,
 				E3972ABC2BDA59E000A39C83 /* CopyFiles */,
 				E3972ABD2BDA59E500A39C83 /* ShellScript */,
+				E3B808802BE288E200186D74 /* Embed Watch Content */,
+				E30DA8842BE294B100A80AAB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E3B8087F2BE288E200186D74 /* PBXTargetDependency */,
 			);
 			name = Molkky;
 			productName = Molkky;
@@ -250,6 +406,59 @@
 			productReference = E3972AA22BDA597E00A39C83 /* MolkkyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E3B808402BE2871F00186D74 /* MolkkyWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B8086E2BE2872000186D74 /* Build configuration list for PBXNativeTarget "MolkkyWatch Watch App" */;
+			buildPhases = (
+				E3B8083D2BE2871F00186D74 /* Sources */,
+				E3B8083E2BE2871F00186D74 /* Frameworks */,
+				E3B8083F2BE2871F00186D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MolkkyWatch Watch App";
+			productName = "MolkkyWatch Watch App";
+			productReference = E3B808412BE2871F00186D74 /* MolkkyWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3B808522BE2872000186D74 /* MolkkyWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B808702BE2872000186D74 /* Build configuration list for PBXNativeTarget "MolkkyWatch Watch AppTests" */;
+			buildPhases = (
+				E3B8084F2BE2872000186D74 /* Sources */,
+				E3B808502BE2872000186D74 /* Frameworks */,
+				E3B808512BE2872000186D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3B808552BE2872000186D74 /* PBXTargetDependency */,
+			);
+			name = "MolkkyWatch Watch AppTests";
+			productName = "MolkkyWatch Watch AppTests";
+			productReference = E3B808532BE2872000186D74 /* MolkkyWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3B8085C2BE2872000186D74 /* MolkkyWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B808712BE2872000186D74 /* Build configuration list for PBXNativeTarget "MolkkyWatch Watch AppUITests" */;
+			buildPhases = (
+				E3B808592BE2872000186D74 /* Sources */,
+				E3B8085A2BE2872000186D74 /* Frameworks */,
+				E3B8085B2BE2872000186D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3B8085F2BE2872000186D74 /* PBXTargetDependency */,
+			);
+			name = "MolkkyWatch Watch AppUITests";
+			productName = "MolkkyWatch Watch AppUITests";
+			productReference = E3B8085D2BE2872000186D74 /* MolkkyWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -271,6 +480,17 @@
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = E3972A862BDA597C00A39C83;
 					};
+					E3B808402BE2871F00186D74 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E3B808522BE2872000186D74 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E3B808402BE2871F00186D74;
+					};
+					E3B8085C2BE2872000186D74 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = E3B808402BE2871F00186D74;
+					};
 				};
 			};
 			buildConfigurationList = E3972A822BDA597C00A39C83 /* Build configuration list for PBXProject "Molkky" */;
@@ -289,6 +509,9 @@
 				E3972A862BDA597C00A39C83 /* Molkky */,
 				E3972A972BDA597E00A39C83 /* MolkkyTests */,
 				E3972AA12BDA597E00A39C83 /* MolkkyUITests */,
+				E3B808402BE2871F00186D74 /* MolkkyWatch Watch App */,
+				E3B808522BE2872000186D74 /* MolkkyWatch Watch AppTests */,
+				E3B8085C2BE2872000186D74 /* MolkkyWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,6 +534,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E3972AA02BDA597E00A39C83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B8083F2BE2871F00186D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B8084E2BE2872000186D74 /* Preview Assets.xcassets in Resources */,
+				E3B8084B2BE2872000186D74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B808512BE2872000186D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B8085B2BE2872000186D74 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,6 +621,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3B8083D2BE2871F00186D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B808832BE289EE00186D74 /* GameBrain.swift in Sources */,
+				E3B808842BE289EE00186D74 /* Joueur.swift in Sources */,
+				E3B808852BE289EE00186D74 /* Message.swift in Sources */,
+				E3B808772BE287FC00186D74 /* EcranJeuxWatch.swift in Sources */,
+				E3B808732BE287E200186D74 /* WatchToIos.swift in Sources */,
+				E3B808472BE2871F00186D74 /* MolkkyWatchApp.swift in Sources */,
+				E3B808792BE2880F00186D74 /* EcranClassementFinWatch.swift in Sources */,
+				E3B808752BE287F700186D74 /* PageDemarrage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B8084F2BE2872000186D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B808582BE2872000186D74 /* MolkkyWatchWatchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B808592BE2872000186D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B808622BE2872000186D74 /* MolkkyWatchWatchAppUITests.swift in Sources */,
+				E3B808642BE2872000186D74 /* MolkkyWatchWatchAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -387,6 +665,21 @@
 			isa = PBXTargetDependency;
 			target = E3972A862BDA597C00A39C83 /* Molkky */;
 			targetProxy = E3972AA32BDA597E00A39C83 /* PBXContainerItemProxy */;
+		};
+		E3B808552BE2872000186D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3B808402BE2871F00186D74 /* MolkkyWatch Watch App */;
+			targetProxy = E3B808542BE2872000186D74 /* PBXContainerItemProxy */;
+		};
+		E3B8085F2BE2872000186D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3B808402BE2871F00186D74 /* MolkkyWatch Watch App */;
+			targetProxy = E3B8085E2BE2872000186D74 /* PBXContainerItemProxy */;
+		};
+		E3B8087F2BE288E200186D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3B808402BE2871F00186D74 /* MolkkyWatch Watch App */;
+			targetProxy = E3B8087E2BE288E200186D74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -443,12 +736,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Debug;
 		};
@@ -498,10 +793,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Release;
 		};
@@ -536,7 +833,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = EG..Molkky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -574,7 +872,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = EG..Molkky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -671,6 +970,157 @@
 			};
 			name = Release;
 		};
+		E3B808682BE2872000186D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MolkkyWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MolkkyWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EG..MolkkyWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		E3B808692BE2872000186D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MolkkyWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MolkkyWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EG..MolkkyWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		E3B8086A2BE2872000186D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EG..MolkkyWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MolkkyWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MolkkyWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		E3B8086B2BE2872000186D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EG..MolkkyWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MolkkyWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MolkkyWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		E3B8086C2BE2872000186D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EG..MolkkyWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MolkkyWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		E3B8086D2BE2872000186D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "EG..MolkkyWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "MolkkyWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -706,6 +1156,33 @@
 			buildConfigurations = (
 				E3972AB32BDA597E00A39C83 /* Debug */,
 				E3972AB42BDA597E00A39C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B8086E2BE2872000186D74 /* Build configuration list for PBXNativeTarget "MolkkyWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B808682BE2872000186D74 /* Debug */,
+				E3B808692BE2872000186D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B808702BE2872000186D74 /* Build configuration list for PBXNativeTarget "MolkkyWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B8086A2BE2872000186D74 /* Debug */,
+				E3B8086B2BE2872000186D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B808712BE2872000186D74 /* Build configuration list for PBXNativeTarget "MolkkyWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B8086C2BE2872000186D74 /* Debug */,
+				E3B8086D2BE2872000186D74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
